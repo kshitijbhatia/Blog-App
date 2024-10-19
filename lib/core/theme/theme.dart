@@ -8,7 +8,7 @@ class AppTheme {
           color: color,
           width: 3
       ),
-      borderRadius: BorderRadius.all(Radius.circular(10))
+      borderRadius: const BorderRadius.all(Radius.circular(10))
   );
 
   static final dartThemeMode = ThemeData.dark().copyWith(
